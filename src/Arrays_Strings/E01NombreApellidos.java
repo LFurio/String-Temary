@@ -19,18 +19,14 @@ public class E01NombreApellidos {
     
     //Método Minúsculas.
     static String Minus(String nombretotal){
-        
-        String minus = nombretotal.toLowerCase();
-        
-        return minus;
+
+        return nombretotal.toLowerCase();
     }
     
     //Método Mayúsculas.
     static String Mayus(String nombretotal){
-        
-        String mayus = nombretotal.toUpperCase();
-        
-        return mayus;
+
+        return nombretotal.toUpperCase();
     }
     
     //Método Longitud.
